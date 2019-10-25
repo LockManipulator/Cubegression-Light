@@ -1,3 +1,3 @@
-D:/Downloads/cubemodartifactonlysource/cubemod/out/build/x64-Debug/CMakeFiles/cubemod.dir
-D:/Downloads/cubemodartifactonlysource/cubemod/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-D:/Downloads/cubemodartifactonlysource/cubemod/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/Downloads/Cubegression-Light-master/cubemod/out/build/x64-Debug/CMakeFiles/cubemod.dir
+D:/Downloads/Cubegression-Light-master/cubemod/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/Downloads/Cubegression-Light-master/cubemod/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
