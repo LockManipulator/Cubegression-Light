@@ -20,6 +20,7 @@
 #include "hook/hooks/artifact/base_stats/hook_get_player_crit.h"
 #include "hook/hooks/command/hook_send_chat.h"
 
+
 Main& Main::GetInstance()
 {
 	static auto instance = Main();
@@ -120,17 +121,42 @@ void Main::PatchRegionLock()
 //With help from Nichiren and Geo
 void Main::PatchRegionLock()
 {
-	auto glider_use = MemoryHelper::FindPattern("0F 84 86 ? ? ? 49 8B 8E");
-	auto boat_use = MemoryHelper::FindPattern("74 66 4D 8B 86 48 04");
-	auto rein_use = MemoryHelper::FindPattern("74 14 49 8B 45 08");
-	auto rein_stay = MemoryHelper::FindPattern("E8 D4 3B D8 FF 84 C0 75 0B 49 8B 86 48 04");
-	auto boat_stay = MemoryHelper::FindPattern("E8 82 3B D8 FF 84 C0 75 0B 49 8B 86 48 04 ? ? C6 40 68");
+	std::string option1true;
+	std::string option1;
+	std::string str;
+	std::ifstream file("config.txt");
+	option1true = "movement=true";
 
-	MemoryHelper::PatchMemory<uint8_t>(glider_use + 0x01, 0x80);
-	MemoryHelper::PatchMemory<uint8_t>(boat_use, 0x70);
-	MemoryHelper::PatchMemory<uint8_t>(rein_use, 0x70);
-	MemoryHelper::PatchMemory<uint8_t>(rein_stay + 0x07, 0xEB);
-	MemoryHelper::PatchMemory<uint8_t>(boat_stay + 0x07, 0xEB);
+	if (file.is_open())
+	{
+		while (getline(file, str))
+		{
+			option1 = str;
+		}
+		file.close();
+	}
+
+	if (option1.compare(0, option1true.length(), option1true) == 0)
+	{
+
+		auto glider_use = MemoryHelper::FindPattern("0F 84 86 ? ? ? 49 8B 8E");
+		auto boat_use = MemoryHelper::FindPattern("74 66 4D 8B 86 48 04");
+		auto rein_use = MemoryHelper::FindPattern("74 14 49 8B 45 08");
+		auto rein_stay = MemoryHelper::FindPattern("E8 D4 3B D8 FF 84 C0 75 0B 49 8B 86 48 04");
+		auto boat_stay = MemoryHelper::FindPattern("E8 82 3B D8 FF 84 C0 75 0B 49 8B 86 48 04 ? ? C6 40 68");
+
+		MemoryHelper::PatchMemory<uint8_t>(glider_use + 0x01, 0x80);
+		MemoryHelper::PatchMemory<uint8_t>(boat_use, 0x70);
+		MemoryHelper::PatchMemory<uint8_t>(rein_use, 0x70);
+		MemoryHelper::PatchMemory<uint8_t>(rein_stay + 0x07, 0xEB);
+		MemoryHelper::PatchMemory<uint8_t>(boat_stay + 0x07, 0xEB);
+
+	}
+
+	else
+	{
+
+	}
 }
 
 
