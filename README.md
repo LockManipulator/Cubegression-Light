@@ -2,7 +2,7 @@ Credits to ArisHacksTV for his leveling mod as this is just a stripped down and 
 
 INSTALLING
 
-Put the FreeImage.dll and cubemod.dll into your Cube World folder (where the .exe is), should be Steam\steamapps\common\Cube World. Click yes to overwrite if needed and you're set. 
+Put the FreeImage.dll, cubemod.dll, and config.txt into your Cube World folder (where the .exe is), should be Steam\steamapps\common\Cube World. Click yes to overwrite if needed and you're set. 
 
 TROUBLESHOOTING
 
