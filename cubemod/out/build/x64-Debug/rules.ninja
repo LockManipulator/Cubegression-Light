@@ -47,7 +47,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:\Downloads\Cubegression-Light-master\cubemod -BD:\Downloads\Cubegression-Light-master\cubemod\out\build\x64-Debug
+  command = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -S"D:\Documents\Cube World\Mods\Cubegression-Light-master\cubemod" -B"D:\Documents\Cube World\Mods\Cubegression-Light-master\cubemod\out\build\x64-Debug"
   description = Re-running CMake...
   generator = 1
 

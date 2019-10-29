@@ -29,6 +29,10 @@ private:
 
 	void PatchRegionLock();
 
+	void VanillaGliderFix();
+	
+	void VanillaRideFix();
+
 public:
 	static Main& GetInstance();
 
