@@ -1,0 +1,3 @@
+D:/Documents/Cube World/Mods/Cubegression-with-class/build/CMakeFiles/edit_cache.dir
+D:/Documents/Cube World/Mods/Cubegression-with-class/build/CMakeFiles/cubegression.dir
+D:/Documents/Cube World/Mods/Cubegression-with-class/build/CMakeFiles/rebuild_cache.dir

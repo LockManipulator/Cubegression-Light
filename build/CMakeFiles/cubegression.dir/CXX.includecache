@@ -1,0 +1,714 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-address-width-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-agen.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-error-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-error-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-attribute-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-attributes.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-build-defines.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-category-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-chip-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-chip-features.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-isa-set-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-isa-set-enum.h
+xed-chip-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-chip-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-defs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-cpuid-bit-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-cpuid-rec.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-cpuid-bit-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-cpuid-bit-enum.h
+xed-isa-set-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-isa-set-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decode.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-error-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-error-enum.h
+xed-chip-features.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-chip-features.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst-api.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-operand-accessors.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-accessors.h
+xed-state.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-state.h
+xed-operand-values-interface.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-values-interface.h
+xed-print-info.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-print-info.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-common-defs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-defs.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-util.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-util.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-inst.h
+xed-flags.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-flags.h
+xed-encoder-gen-defs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-gen-defs.h
+xed-chip-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-chip-enum.h
+xed-operand-element-type-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-element-type-enum.h
+xed-operand-storage.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-storage.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-disas.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encode-check.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encode-direct.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-error-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-error-enum.h
+stdarg.h
+-
+string.h
+-
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encode.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-error-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-error-enum.h
+xed-operand-values-interface.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-values-interface.h
+xed-operand-width-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-width-enum.h
+xed-encoder-iforms.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-iforms.h
+xed-encoder-gen-defs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-gen-defs.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-gen-defs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-hl.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-reg-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-enum.h
+xed-state.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-state.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-encode.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encode.h
+xed-util.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-util.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-iforms.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-error-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-exception-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-extension-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-flag-action-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-flag-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-flags.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-flag-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-flag-enum.h
+xed-flag-action-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-flag-action-enum.h
+xed-gen-table-defs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-gen-table-defs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-format-options.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-gen-table-defs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iform-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iform-map.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-iform-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iform-enum.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+xed-category-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-category-enum.h
+xed-extension-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-extension-enum.h
+xed-isa-set-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-isa-set-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iformfl-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-ild.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-common-defs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-defs.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-operand-accessors.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-accessors.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-init.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-inst.h
+xed-util.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-util.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-category-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-category-enum.h
+xed-extension-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-extension-enum.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+xed-operand-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-enum.h
+xed-operand-visibility-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-visibility-enum.h
+xed-operand-action-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-action-enum.h
+xed-operand-convert-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-convert-enum.h
+xed-operand-type-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-type-enum.h
+xed-nonterminal-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-nonterminal-enum.h
+xed-operand-width-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-width-enum.h
+xed-operand-element-xtype-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-element-xtype-enum.h
+xed-reg-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-enum.h
+xed-attribute-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-attribute-enum.h
+xed-exception-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-exception-enum.h
+xed-iform-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iform-enum.h
+xed-iform-map.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iform-map.h
+xed-attributes.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-attributes.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-interface.h
+xed-build-defines.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-build-defines.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-operand-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-enum.h
+xed-init.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-init.h
+xed-decode.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decode.h
+xed-ild.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-ild.h
+xed-state.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-state.h
+xed-syntax-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-syntax-enum.h
+xed-reg-class-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-class-enum.h
+xed-reg-class.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-class.h
+xed-encode.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encode.h
+xed-encoder-hl.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-hl.h
+xed-patch.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-patch.h
+xed-encode-direct.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encode-direct.h
+xed-encode-check.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encode-check.h
+xed-util.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-util.h
+xed-operand-action.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-action.h
+xed-version.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-version.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-decoded-inst-api.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst-api.h
+xed-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-inst.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+xed-category-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-category-enum.h
+xed-extension-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-extension-enum.h
+xed-attribute-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-attribute-enum.h
+xed-exception-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-exception-enum.h
+xed-operand-element-type-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-element-type-enum.h
+xed-operand-element-xtype-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-element-xtype-enum.h
+xed-disas.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-disas.h
+xed-format-options.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-format-options.h
+xed-iform-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iform-enum.h
+xed-iformfl-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iformfl-enum.h
+xed-iform-map.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iform-map.h
+xed-rep-prefix.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-rep-prefix.h
+xed-agen.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-agen.h
+xed-cpuid-rec.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-cpuid-rec.h
+xed-isa-set.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-isa-set.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-isa-set-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-isa-set.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-isa-set-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-isa-set-enum.h
+xed-chip-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-chip-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-machine-mode-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-nonterminal-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-accessors.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-operand-storage.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-storage.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-action-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-action.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-operand-action-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-action-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-convert-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-element-type-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-element-xtype-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-storage.h
+xed-chip-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-chip-enum.h
+xed-error-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-error-enum.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+xed-reg-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-enum.h
+xed-operand-element-type-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-element-type-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-type-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-values-interface.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-common-defs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-defs.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-util.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-util.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-state.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-state.h
+xed-operand-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-enum.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-reg-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-enum.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-visibility-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-operand-width-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-patch.h
+xed-encoder-hl.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-encoder-hl.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-print-info.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-decoded-inst.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-decoded-inst.h
+xed-disas.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-disas.h
+xed-syntax-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-syntax-enum.h
+xed-format-options.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-format-options.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-class-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-class.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-reg-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-enum.h
+xed-reg-class-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-class-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-reg-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-rep-prefix.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-common-defs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-defs.h
+xed-iclass-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-iclass-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-state.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+xed-address-width-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-address-width-enum.h
+xed-machine-mode-enum.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-machine-mode-enum.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-syntax-enum.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+stdint.h
+-
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-util.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+xed-types.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-types.h
+xed-portability.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-portability.h
+stdio.h
+-
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-version.h
+xed-common-hdrs.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-common-hdrs.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+cstdint
+-
+sstream
+-
+random
+-
+functional
+-
+main.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/main.h
+climits
+-
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+Windows.h
+-
+algorithm
+-
+../../../lib/xed/include/xed-interface.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/lib/xed/include/xed-interface.h
+../memory/memory_helper.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/memory/memory_helper.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_attack_power.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_hit_points.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_armor.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_crit.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_haste.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_regeneration.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_resistance.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_spell_power.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/display/hook_artifact_display_roundf.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+hook_concat_artifact_suffix.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/display/hook_concat_artifact_suffix.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/display/hook_concat_artifact_suffix.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/display/hook_round_artifact_thing.h
+../../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/hook_set_artifact_stats.h
+../../hook.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hook.h
+../../../game_structures.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/game_structures.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/main.cpp
+main.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/main.h
+fstream
+-
+memory/memory_helper.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/memory/memory_helper.h
+hook/hooks/artifact/hook_set_artifact_stats.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/hook_set_artifact_stats.h
+hook/hooks/artifact/display/hook_concat_artifact_suffix.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/display/hook_concat_artifact_suffix.h
+hook/hooks/artifact/display/hook_round_artifact_thing.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/display/hook_round_artifact_thing.h
+hook/hooks/artifact/display/hook_artifact_display_roundf.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/display/hook_artifact_display_roundf.h
+hook/hooks/artifact/base_stats/hook_get_hit_points.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_hit_points.h
+hook/hooks/artifact/base_stats/hook_get_player_armor.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_armor.h
+hook/hooks/artifact/base_stats/hook_get_attack_power.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_attack_power.h
+hook/hooks/artifact/base_stats/hook_get_spell_power.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_spell_power.h
+hook/hooks/artifact/base_stats/hook_get_player_haste.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_haste.h
+hook/hooks/artifact/base_stats/hook_get_player_regeneration.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_regeneration.h
+hook/hooks/artifact/base_stats/hook_get_player_resistance.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_resistance.h
+hook/hooks/artifact/base_stats/hook_get_player_crit.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/hook/hooks/artifact/base_stats/hook_get_player_crit.h
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/main.h
+map
+-
+Windows.h
+-
+string
+-
+vector
+-
+intrin.h
+-
+
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/memory/memory_helper.h
+Windows.h
+-
+psapi.h
+-
+sstream
+-
+vector
+-
+iostream
+-
+../main.h
+D:/Documents/Cube World/Mods/Cubegression-with-class/src/core/main.h
+
