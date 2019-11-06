@@ -2,7 +2,7 @@ Credits to ArisHacksTV for his leveling mod as this is just a stripped down and 
 
 INSTALLING
 
-Download CubeModLoader.fip from https://github.com/ChrisMiuchiz/Cube-World-Mod-Launcher/releases and place it in your Cube World folder (should be Steam\steamapps\common\Cube World) along with config.txt from this mod. Make a folder called "Mods" (without quotes) in your Cube World folder and put cubegression.dll in that Mods folder.
+Download CubeModLoader.fip from https://github.com/ChrisMiuchiz/Cube-World-Mod-Launcher/releases/tag/1.0.0-1_4.2_v2 and place it in your Cube World folder (should be Steam\steamapps\common\Cube World) along with config.txt from this mod. Make a folder called "Mods" (without quotes) in your Cube World folder and put cubegression.dll in that Mods folder.
 
 ABOUT
 
