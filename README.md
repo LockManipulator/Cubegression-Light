@@ -1,8 +1,8 @@
-Credits to ArisHacksTV for his leveling mod as this is just a stripped down and slightly altered version of it. Thanks to zatochu for correcting the names of the boosts and removing other features and to ChrisMiuchiz for his mod loader. Thanks to Geo for his cheat table and help along the way. And thanks to Nichiren for helping out with creation of this mod.
+# By the Lich Group<sup>tm</sup> 
 
 INSTALLING
 
-Download CubeModLoader.fip from https://github.com/ChrisMiuchiz/Cube-World-Mod-Launcher/releases and place it in your Cube World folder (should be Steam\steamapps\common\Cube World) along with config.txt from this mod. Make a folder called "Mods" (without quotes) in your Cube World folder and put cubegression.dll in that Mods folder.
+Download CubeModLoader.fip from https://github.com/ChrisMiuchiz/Cube-World-Mod-Launcher/releases and place it in your Cube World folder (should be Steam\steamapps\common\Cube World). Make a folder called "Mods" (without quotes) in your Cube World folder and put cubegression.dll in that Mods folder.
 
 ABOUT
 
@@ -25,3 +25,8 @@ Haste, Riding
 Regen, Gliding
 Crit, Sailing
 Resistance, Lamp radius
+
+Thanks to Aris for his memory patcher functions. Thanks to zatochu for correcting the names of the boosts and removing other features and to ChrisMiuchiz for his mod loader. Thanks to Geo for his cheat table and help along the way.
+
+
+<sup>*Lich Group owned and operated by Nichiren and Lock</sup>
