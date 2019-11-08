@@ -12,8 +12,8 @@ Health boost is +10hp
 Armor boost is +1
 Damage boost is +1
 Haste boost is +0.075
-Regen boost is +0.1
-Crit boost is +0.075
+Regen boost is +0.25
+Crit boost is +0.75
 Resistance boost is +1
 
 The artifacts still boost lamp radius, sailing speed, etc but that's just not shown. So each artifact boosts a combat stat and one of the original movement boost as well. Here is what boosts go together:
