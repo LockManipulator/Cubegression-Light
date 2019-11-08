@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cubegression.dir/objects.a
-C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\bin\ar.exe cr CMakeFiles\cubegression.dir/objects.a @CMakeFiles\cubegression.dir\objects1.rsp
-C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  -m64 -masm=intel -static -static-libgcc -static-libstdc++ -fpermissive -std=c99  -shared -o ..\bin\cubegression.dll -Wl,--out-implib,libcubegression.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\cubegression.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\cubegression.dir\linklibs.rsp

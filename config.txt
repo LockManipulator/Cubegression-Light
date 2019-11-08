@@ -1,1 +1,0 @@
-movement=true #true allows boats, reins, and glider to be region unlocked
