@@ -9,14 +9,17 @@
 #include <map>
 #include <windows.h>
 
-#include "src/hooks/base_damage.h"
-#include "src/hooks/base_spell.h"
-#include "src/hooks/base_hp.h"
-#include "src/hooks/base_armor.h"
-#include "src/hooks/base_crit.h"
-#include "src/hooks/base_haste.h"
-#include "src/hooks/base_regen.h"
-#include "src/hooks/base_resist.h"
+#include "src/hooks/stats/base_damage.h"
+#include "src/hooks/stats/base_spell.h"
+#include "src/hooks/stats/base_hp.h"
+#include "src/hooks/stats/base_armor.h"
+#include "src/hooks/stats/base_crit.h"
+#include "src/hooks/stats/base_haste.h"
+#include "src/hooks/stats/base_regen.h"
+#include "src/hooks/stats/base_resist.h"
+
+#include "src/hooks/display/change_stat_display.h"
+#include "src/hooks/display/change_stat_suffix.h"
 
 #include "src/memory/memory_helper.h"
 
@@ -53,6 +56,9 @@ class Mod : GenericMod {
 
 	virtual void Initialize() override {
 		ChangeArtifactDisplay();
+		suffix_change();
+		change_stats();
+
 		set_base_damage();
 		set_base_spell();
 		set_base_hp();
