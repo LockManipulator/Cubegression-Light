@@ -25,5 +25,3 @@ Haste, Riding
 Regen, Gliding
 Crit, Sailing
 Resistance, Lamp radius
-
-Also includes fixes to vanilla artifact boosts for gliding and riding as those do not work in vanilla. So swimming, diving, and climbing skills don't actually get affected since those don't work in vanilla and I haven't gotten around to fixing that in this mod yet.
