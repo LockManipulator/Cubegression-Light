@@ -12,7 +12,7 @@ class HookGetPlayerArmor : public Hook
 		auto ret = hook->Trampoline(GetArmor)(entity);
 		if (entity->GetEntityType() != PLAYER) return ret;
 
-		//Just nerf base armor a bit here
+		//Just nerf base armor a bit here because i'm a dumb dumb
 		ret *= 0.9;
 		return ret + ((Player*)entity)->GetIncreasedArtifactStats(ARMOR);
 	}

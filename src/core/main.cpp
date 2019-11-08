@@ -81,7 +81,7 @@ void Main::ChangeArtifactDisplay()
 	MemoryHelper::FindAndReplaceString(L"Light Radius", L"Resistance Boost");
 }
 
-//With help from Nichiren and Geo
+//By the Lich Group with help from Geo
 void Main::PatchRegionLock()
 {
 	std::string option1true;
