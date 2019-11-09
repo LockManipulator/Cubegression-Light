@@ -1,113 +1,32 @@
-# Cube-World-Commands-Mod
-For use with the Cube World Mod Launcher: https://github.com/ChrisMiuchiz/Cube-World-Mod-Launcher
+# By the Lich Group<sup>tm</sup>  
 
-This mod implements additional commands into Cube World. It also adds the ability to use the arrow keys to get messages you have previously sent, like how most command lines work.
+INSTALLING  
 
-## Commands:
- #### Get help
-  
-    /help [page number]
+Download CubeModLoader.fip from https://github.com/ChrisMiuchiz/Cube-World-Mod-Launcher/releases and place it in your Cube World folder (should be Steam\steamapps\common\Cube World). Make a folder called "Mods" (without quotes) in your Cube World folder and put cubegression.dll in that Mods folder.  
 
- ---
- 
- #### Display world coordinates
-  
-    /coords
-    
- ---
- 
- #### Teleport in terms of map coordinates
+ABOUT  
 
-    /tp <x> <y>
- 
- ---
- 
- #### Teleport to another player
+Each artifact now gives one of these boosts:  
 
-    /tp <name>
- 
- ---
- 
- #### Set time
- 
-    /settime <hour>:<minute>
-    
- ---
- 
- #### Set name
- 
-    /name <name>
-    
- ---
- 
- #### Connect to a server via steam ID
- 
-    /join <Steam ID>
-    
- ---
- 
- #### Connect to a server using an alias, specified in Mods\CommandsMod\join.txt
- 
-    /join <alias>
-    
- ---
- 
- #### Allow anyone to connect to your server
- 
-    /server open
-    
- ---
- 
- #### Stop allowing anyone to connect to your server
- 
-    /server close
-    
- ---
- 
- #### Refuse all new sessions
- 
-    /server block
-    
- ---
- 
- #### Enable blacklisting Steam IDs specified in Mods\CommandsMod\blacklist.txt
- 
-    /server blacklist
-    
- ---
- 
- #### Log new session requests
- 
-    /server log
-    
- ---
- 
- #### Teleport to your cursor position on the map
- 
-    /tpmap
-	
- ---
- 
- #### Create a waypoint/home you can teleport to 
- 
-    /sethome <alias>
-	
- ---
- 
- #### Teleport to a waypoint/home
- 
-    /home <alias>
-	
- ---
+Health boost is +10hp  
+Armor boost is +1  
+Damage boost is +1  
+Haste boost is +0.075  
+Regen boost is +0.25  
+Crit boost is +0.75  
+Resistance boost is +1  
 
- #### Change chat size
- 
-    /gui chat <x size> <y size>
-	
- ---
- 
- #### Use a skill - This will also tell you the identifier of the skill, if available.
- 
-    /skill <id>
-    
-    
+The artifacts still boost lamp radius, sailing speed, etc but that's just not shown. So each artifact boosts a combat stat and one of the original movement boost as well. Here is what boosts go together:  
+
+Health, Climbing  
+Armor, Swimming  
+Damage, Diving  
+Haste, Riding  
+Regen, Gliding  
+Crit, Sailing  
+Resistance, Lamp radius  
+
+Thanks to Aris for his memory patcher functions. Thanks to zatochu for correcting the names of the boosts and removing other features and to ChrisMiuchiz for his mod loader. Thanks to Geo for his cheat table and help along the way.  
+
+
+<sup>*Lich Group owned and operated by Nichiren and Lock</sup>
