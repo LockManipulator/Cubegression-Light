@@ -16,7 +16,7 @@ Regen boost is +0.25
 Crit boost is +0.75  
 Resistance boost is +1  
 
-The artifacts still boost lamp radius, sailing speed, etc but that's just not shown. So each artifact boosts a combat stat and one of the original movement boost as well. Here is what boosts go together:  
+The artifacts still boost lamp radius and sailing speed but that's just not shown. So each artifact boosts a combat stat and one of the original movement boost as well. Here is what boosts go together:  
 
 Health, Climbing  
 Armor, Swimming  
@@ -25,6 +25,8 @@ Haste, Riding
 Regen, Gliding  
 Crit, Sailing  
 Resistance, Lamp radius  
+
+Only lamp radius and sailing speed actually get boosted, since the rest are broken (same with vanilla game).  
 
 Thanks to Aris for his memory patcher functions. Thanks to zatochu for correcting the names of the boosts and removing other features and to ChrisMiuchiz for his mod loader. Thanks to Geo for his cheat table and help along the way.  
 
