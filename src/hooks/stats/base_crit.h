@@ -2,7 +2,7 @@ GETTER_VAR(void*, asm_base_crit_hook_ret1);
 GETTER_VAR(void*, asm_base_crit_hook_ret2);
 
 extern "C" float get_crit(cube::Creature * player) {
-	return 0.0075f * (float)player->sailing_speed;
+	return 0.00075f * (float)player->sailing_speed;
 }
 
 __attribute__((naked)) void ASM_Base_crit_Hook() {

@@ -2,7 +2,7 @@ GETTER_VAR(void*, asm_base_haste_hook_ret1);
 GETTER_VAR(void*, asm_base_haste_hook_ret2);
 
 extern "C" float get_haste(cube::Creature * player) {
-	return 1.0f + (0.0075f * (float)player->riding_speed);
+	return 1.0f + (0.00075f * (float)player->riding_speed);
 }
 
 __attribute__((naked)) void ASM_Base_haste_Hook() {

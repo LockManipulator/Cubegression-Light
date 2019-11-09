@@ -1,7 +1,7 @@
 GETTER_VAR(void*, asm_base_regen_hook_ret);
 
 extern "C" float get_regen(cube::Creature * creature) {
-	return 1.0f + (0.0025f * (float)creature->hang_gliding_speed);
+	return 1.0f + (0.00025f * (float)creature->hang_gliding_speed);
 }
 
 __attribute__((naked)) void ASM_Base_regen_Hook() {

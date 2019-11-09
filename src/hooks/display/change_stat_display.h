@@ -1,6 +1,6 @@
 extern "C" float regen_stat_hook() { // mod 4
 	cube::Creature* player = cube::GetGame()->GetPlayer();
-	return 0.0025f * player->hang_gliding_speed;
+	return 0.00025f * player->hang_gliding_speed;
 }
 
 extern "C" float damage_stat_hook() { // mod 2
@@ -20,12 +20,12 @@ extern "C" float resistance_stat_hook() { // mod 6
 
 extern "C" float crit_stat_hook() { // mod 5
 	cube::Creature* player = cube::GetGame()->GetPlayer();
-	return 0.0075f * (float)player->sailing_speed;
+	return 0.00075f * (float)player->sailing_speed;
 }
 
 extern "C" float haste_stat_hook() { // mod 3
 	cube::Creature* player = cube::GetGame()->GetPlayer();
-	return 0.0075f * (float)player->riding_speed;
+	return 0.00075f * (float)player->riding_speed;
 }
 
 extern "C" float hp_stat_hook() { // mod 0
