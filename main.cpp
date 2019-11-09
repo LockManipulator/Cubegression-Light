@@ -97,6 +97,6 @@ Code caves used:
 50CB1
 5F01F
 
-Next hook: 5B63FE
+Next hook: 5B6460, 5B646E, 5B647C, 5B648A, 5B6498, 5B64A6, 5B64B4
 
 */

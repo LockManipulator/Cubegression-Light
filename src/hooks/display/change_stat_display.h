@@ -36,53 +36,87 @@ extern "C" float hp_stat_hook() { // mod 0
 
 void change_regen_display() {
 	char* base = (char*)CWBase();
-	int offset = 0x5E411;
-	WriteFarJMP(Offset(base, offset), (void*)&regen_stat_hook);
-	WriteByte(Offset(base, offset+0x14), 0xC3);
+	int offset = 0x27554F;
+	WriteFarJMP(Offset(base, 0x5B6452), (void*)&regen_stat_hook);
+
+	WriteByte(Offset(base, offset), 0xE9);
+	WriteByte(base + offset + 0x01, 0xFE);
+	WriteByte(base + offset + 0x02, 0x0E);
+	WriteByte(base + offset + 0x03, 0x34);
+	WriteByte(base + offset + 0x04, 0x00);
 }
 
 void change_damage_display() {
 	char* base = (char*)CWBase();
-	int offset = 0x511C3;
-	WriteFarJMP(Offset(base, offset), (void*)&damage_stat_hook);
-	WriteByte(Offset(base, offset+0x14), 0xC3);
+	int offset = 0x2755DF;
+	WriteFarJMP(Offset(base, 0x5B6444), (void*)&damage_stat_hook);
+
+	WriteByte(Offset(base, offset), 0xE9);
+	WriteByte(base + offset + 0x01, 0x60);
+	WriteByte(base + offset + 0x02, 0x0E);
+	WriteByte(base + offset + 0x03, 0x34);
+	WriteByte(base + offset + 0x04, 0x00);
 }
 
 void change_armor_display() {
 	char* base = (char*)CWBase();
-	int offset = 0x66432;
-	int offset2 = 0x66440;
-	WriteFarJMP(Offset(base, offset), (void*)&armor_stat_hook);
-	WriteByte(Offset(base, offset2), 0xC3);
+	int offset = 0x2755BC;
+	WriteFarJMP(Offset(base, 0x5B6436), (void*)&armor_stat_hook);
+
+	WriteByte(Offset(base, offset), 0xE9);
+	WriteByte(base + offset + 0x01, 0x75);
+	WriteByte(base + offset + 0x02, 0x0E);
+	WriteByte(base + offset + 0x03, 0x34);
+	WriteByte(base + offset + 0x04, 0x00);
 }
 
 void change_resistance_display() {
 	char* base = (char*)CWBase();
-	int offset = 0x5F721;
-	WriteFarJMP(Offset(base, offset), (void*)&resistance_stat_hook);
-	WriteByte(Offset(base, offset + 0x14), 0xC3);
+	int offset = 0x275629;
+	WriteFarJMP(Offset(base, 0x5B6428), (void*)&resistance_stat_hook);
+
+	WriteByte(Offset(base, offset), 0xE9);
+	WriteByte(base + offset + 0x01, 0xFA);
+	WriteByte(base + offset + 0x02, 0x0D);
+	WriteByte(base + offset + 0x03, 0x34);
+	WriteByte(base + offset + 0x04, 0x00);
 }
+
 
 void change_crit_display() {
 	char* base = (char*)CWBase();
-	int offset = 0x65371;
-	WriteFarJMP(Offset(base, offset), (void*)&crit_stat_hook);
-	WriteByte(Offset(base, offset + 0x14), 0xC3);
+	int offset = 0x2755A3;
+	WriteFarJMP(Offset(base, 0x5B641A), (void*)&crit_stat_hook);
+
+	WriteByte(Offset(base, offset), 0xE9);
+	WriteByte(base + offset + 0x01, 0x72);
+	WriteByte(base + offset + 0x02, 0x0E);
+	WriteByte(base + offset + 0x03, 0x34);
+	WriteByte(base + offset + 0x04, 0x00);
 }
 
 void change_haste_display() {
 	char* base = (char*)CWBase();
-	int offset = 0x65311;
-	WriteFarJMP(Offset(base, offset), (void*)&haste_stat_hook);
-	WriteByte(Offset(base, offset + 0x14), 0xC3);
+	int offset = 0x27560D;
+	WriteFarJMP(Offset(base, 0x5B640C), (void*)&haste_stat_hook);
+
+	WriteByte(Offset(base, offset), 0xE9);
+	WriteByte(base + offset + 0x01, 0xFA);
+	WriteByte(base + offset + 0x02, 0x0D);
+	WriteByte(base + offset + 0x03, 0x34);
+	WriteByte(base + offset + 0x04, 0x00);
 }
 
 void change_hp_display() {
 	char* base = (char*)CWBase();
-	int offset = 0x50BA2;
-	int offset2 = 0x50BB0;
-	WriteFarJMP(Offset(base, offset), (void*)&hp_stat_hook);
-	WriteByte(Offset(base, offset2), 0xC3);
+	int offset = 0x27558A;
+	WriteFarJMP(Offset(base, 0x5B63FE), (void*)&hp_stat_hook);
+
+	WriteByte(Offset(base, offset), 0xE9);
+	WriteByte(base + offset + 0x01, 0x6F);
+	WriteByte(base + offset + 0x02, 0x0E);
+	WriteByte(base + offset + 0x03, 0x34);
+	WriteByte(base + offset + 0x04, 0x00);
 }
 
 void remove_roundf_stat_display() {
