@@ -1,5 +1,5 @@
 #include "main.h"
-#include "cwmods/cwmods.h"
+#include "cwmods/cwsdk.h"
 #include <wchar.h>
 #include <stdio.h>
 #include <string.h>
@@ -9,14 +9,14 @@
 #include <map>
 #include <windows.h>
 
-#include "src/hooks/stats/base_damage.h"
-#include "src/hooks/stats/base_spell.h"
-#include "src/hooks/stats/base_hp.h"
-#include "src/hooks/stats/base_armor.h"
-#include "src/hooks/stats/base_crit.h"
-#include "src/hooks/stats/base_haste.h"
-#include "src/hooks/stats/base_regen.h"
-#include "src/hooks/stats/base_resist.h"
+//#include "src/hooks/stats/base_damage.h"
+//#include "src/hooks/stats/base_spell.h"
+//#include "src/hooks/stats/base_hp.h"
+//#include "src/hooks/stats/base_armor.h"
+//#include "src/hooks/stats/base_crit.h"
+//#include "src/hooks/stats/base_haste.h"
+//#include "src/hooks/stats/base_regen.h"
+//#include "src/hooks/stats/base_resist.h"
 
 #include "src/hooks/display/change_stat_display.h"
 #include "src/hooks/display/change_stat_suffix.h"
@@ -54,19 +54,71 @@ class Mod : GenericMod {
 		MemoryHelper::FindAndReplaceString(L"Light Radius", L"Resistance Boost");
 	}
 
+	virtual void OnCreatureAttackPowerCalculated(cube::Creature* creature, float* power) {
+		if (cube::GetGame()->world->local_creature == creature) {
+			*power = *power + (float)creature->diving_skill;
+		}
+	}
+
+	virtual void OnCreatureSpellPowerCalculated(cube::Creature* creature, float* power) {
+		if (cube::GetGame()->world->local_creature == creature) {
+			*power = *power + (float)creature->diving_skill;
+		}
+	}
+
+	virtual void OnCreatureHPCalculated(cube::Creature* creature, float* hp) {
+		cube::Game* game = cube::GetGame();
+		if (!game) return;
+		cube::World* world = game->world;
+		if (!world) return;
+		if (cube::GetGame()->world->local_creature == creature) {
+			*hp = *hp + (10.0f * (float)creature->climbing_speed);
+		}
+	}
+
+	virtual void OnCreatureArmorCalculated(cube::Creature* creature, float* armor) {
+		if (cube::GetGame()->world->local_creature == creature) {
+			*armor = *armor + (float)creature->swimming_speed;
+		}
+	}
+
+	virtual void OnCreatureCriticalCalculated(cube::Creature* creature, float* critical) {
+		if (cube::GetGame()->world->local_creature == creature) {
+			*critical = *critical + (0.00075f * (float)creature->sailing_speed);
+		}
+	}
+
+	virtual void OnCreatureHasteCalculated(cube::Creature* creature, float* power) {
+		if (cube::GetGame()->world->local_creature == creature) {
+			*power = *power + (0.00075f * (float)creature->riding_speed);
+		}
+	}
+
+	virtual void OnCreatureRegenerationCalculated(cube::Creature* creature, float* regeneration) {
+		if (cube::GetGame()->world->local_creature == creature) {
+			*regeneration = *regeneration + (0.00025f * (float)creature->hang_gliding_speed);
+		}
+	}
+
+	virtual void OnCreatureResistanceCalculated(cube::Creature* creature, float* resistance) {
+		if (cube::GetGame()->world->local_creature == creature) {
+			*resistance = *resistance + (float)creature->lamp_diameter;
+		}
+	}
+
 	virtual void Initialize() override {
 		ChangeArtifactDisplay();
 		suffix_change();
 		change_stats();
 
-		set_base_damage();
-		set_base_spell();
-		set_base_hp();
-		set_base_armor();
-		set_base_crit();
-		set_base_haste();
-		set_base_regen();
-		set_base_resist();
+		//set_base_damage();
+		//set_base_spell();
+		//set_base_hp();
+		//set_base_armor();
+		//set_base_crit();
+		//set_base_haste();
+		//set_base_regen();
+		//set_base_resist();
 	}
 
 	virtual void OnGameTick(cube::Game* game) override {
